@@ -3,6 +3,9 @@ Instructions:
 
 Follow the instructor's guidance for how to make a homepage with a VM.
 
+If you use GCP CLI then: gcloud init
+You need to select default Region and project.
+
 Show your work:
 1) Browser proof
         Open: http://<EXTERNAL_IP>/
