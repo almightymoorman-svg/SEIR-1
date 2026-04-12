@@ -23,4 +23,6 @@ module "lb" {
   name           = "${local.prefix}-${var.environment}-lb"
   region         = var.region
   instance_group = module.mig.instance_group
+
+# domain_name = "www.chewbacca-snacks.com"
 }
