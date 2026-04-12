@@ -83,6 +83,8 @@ module "mig" {
   network    = module.vpc.network_id
   subnetwork = module.vpc.subnet_id
 
+#  connection_name = module.postgres.connection_name
+
   db_host     = module.postgres.private_ip
   db_name     = "chewbacca"
   db_user     = "chewie"
