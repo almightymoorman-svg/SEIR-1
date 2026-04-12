@@ -25,4 +25,7 @@ module "lb" {
   instance_group = module.mig.instance_group
 
 # domain_name = "www.chewbacca-snacks.com"
+# enable_waf  = true
+# allowed_ips = ["YOUR_IP/32"]
+
 }
